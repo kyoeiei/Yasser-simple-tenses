@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: grammar-checker-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: CHUTES_API_KEY
+        sync: false 

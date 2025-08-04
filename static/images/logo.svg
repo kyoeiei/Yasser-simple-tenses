@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Pen body -->
+    <path d="M368 64L448 144L176 416L96 336L368 64Z" fill="#D2B45F" stroke="#D2B45F" stroke-width="32" stroke-linejoin="round"/>
+    <!-- Pen tip -->
+    <path d="M96 336L64 448L176 416L96 336Z" fill="#D2B45F" stroke="#D2B45F" stroke-width="32" stroke-linejoin="round"/>
+    <!-- Decorative lines -->
+    <path d="M403 109L438 144L368 64L403 109Z" fill="#FFFFFF" fill-opacity="0.3"/>
+</svg> 
