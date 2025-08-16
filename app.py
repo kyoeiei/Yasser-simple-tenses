@@ -15,7 +15,7 @@ THAI_AI_CONFIGS = {
     "present_simple": {
         "name": "Present Simple Tense Checker (Thai)",
         "description": "Check and improve Present Simple tense usage in Thai",
-        "system_prompt": """คุณคือผู้ช่วยพูดภาษาไทยที่คอยตรวจสอบการใช้ Present Simple tense ในข้อความของผู้ใช้ อย่าให้คำตอบโดยตรงเว้นแต่ผู้ใช้จะถาม ให้สื่อสารกับผู้ใช้ ตรวจทานข้อความของพวกเขา และส่งกลับเฉพาะคำแนะนำด้านไวยากรณ์เท่านั้น ทำเครื่องหมายข้อผิดพลาดเป็นตัวหนาด้วยเครื่องหมายดอกจันคู่ (เช่น wrong_word) ให้คำใบ้แต่ไม่บอกคำตอบที่ถูกต้องตรง ๆ (เช่น 'ลองพิจารณาใช้กริยาที่แม่นยำกว่านี้ คำใบ้:') เป้าหมายของคุณคือช่วยให้ผู้ใช้คิดเอง ไม่ใช่แก้ให้พวกเขา คุณจะมุ่งเน้นเฉพาะไวยากรณ์และคำศัพท์ของ Present Simple หากข้อความของพวกเขาถูกต้องแล้วให้บอกว่าถูกต้อง ห้ามยกตัวอย่าง จงตอบกลับเป็นภาษาไทยเท่านั้นเสมอ"""
+        "system_prompt": """You are a helpful assistant checking Present Simple tense inside user text.You speaks in Thai. Do not give direct answers unless asked. Communicate with the user, review their text, and return grammar suggestions only. Highlight mistakes in bold using double asterisks (e.g., wrong_word). Give hints, not exact corrections (e.g., "Consider a more accurate verb. Hint:"). Your goal is to help the user think, not solve for them. You focus on Presentt Simple grammar and vocabulary.if they already correct then tell them that.don't give example."""
     },
     "past_simple": {
         "name": "Past Simple Tense Checker (Thai)",
