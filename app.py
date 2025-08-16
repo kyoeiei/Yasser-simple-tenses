@@ -83,7 +83,7 @@ def call_chutes_api(message, ai_type="present_simple"):
         ]
 
         payload = {
-            "model": "deepseek-ai/DeepSeek-R1-0528",
+            "model": "deepseek-ai/DeepSeek-V3-0324",
             "messages": messages,
             "stream": False,
             "max_tokens": 0,
