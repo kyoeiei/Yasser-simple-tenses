@@ -156,7 +156,7 @@ def generate_thai_response():
         ]
 
         payload = {
-            "model": "deepseek-ai/DeepSeek-V3-0324",
+            "model": "tngtech/DeepSeek-TNG-R1T2-Chimera",
             "messages": messages,
             "stream": False,
             "max_tokens": 0,
